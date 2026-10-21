@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+build/
+coverage/
+.vite/
+.cache/
+.sites-runtime/
+*.tsbuildinfo
+
+# Local environment variables (keep the example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+
+# Preserve shared VS Code settings and extension recommendations
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
