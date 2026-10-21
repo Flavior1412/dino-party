@@ -10,10 +10,6 @@ coverage/
 .sites-runtime/
 *.tsbuildinfo
 
-# Local environment variables (keep the example)
-.env
-.env.*
-!.env.example
 
 # Logs
 *.log
